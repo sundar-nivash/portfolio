@@ -3,12 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c",
-"assets/AssetManifest.bin.json": "69a99f98c8b1fb8111c5fb961769fcd8",
-"assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+const RESOURCES = {"assets/asset/fonts/OpenSans-Italic.ttf": "dac22be0d4aaa6e9f6ce8204be7fe2c9",
+"assets/asset/fonts/OpenSans-Regular.ttf": "7df68ccfcb8ffe00669871052a4929c9",
+"assets/AssetManifest.bin": "8092f46c3de9db9a6cb3c61a9ca99284",
+"assets/AssetManifest.bin.json": "38fe3b5adb7a97d739c3e157f9761761",
+"assets/AssetManifest.json": "6f50378f56e0363f54c3922ccd427c06",
+"assets/FontManifest.json": "880729ff374c33b68511a6b382ed8227",
 "assets/fonts/MaterialIcons-Regular.otf": "32fce58e2acb9c420eab0fe7b828b761",
-"assets/NOTICES": "d38d69b90dfb83bdddf0422f5de92b88",
+"assets/NOTICES": "dfa8c9ad9c0a44db7a1610bbce222dc3",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "89ed8f4e49bcdfc0b5bfc9b24591e347",
 "assets/shaders/ink_sparkle.frag": "4096b5150bac93c41cbc9b45276bd90f",
 "canvaskit/canvaskit.js": "eb8797020acdbdf96a12fb0405582c1b",
@@ -24,9 +26,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "82bbcc6675942d93c5efa6a0d2c79392",
-"/": "82bbcc6675942d93c5efa6a0d2c79392",
-"main.dart.js": "77560a70a8302823b259df78bf1aac4d",
+"index.html": "70247bb49086511822b2d13fef2eb301",
+"/": "70247bb49086511822b2d13fef2eb301",
+"main.dart.js": "40c51ca3e761f9e50aed35cb3bd3499a",
 "manifest.json": "e229325643a60b3c6a89c54fac1e49e9",
 "version.json": "027975ae79106b3150f050e262a09a94"};
 // The application shell files that are downloaded before a service worker can

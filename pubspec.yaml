@@ -38,6 +38,7 @@ dependencies:
   firebase_core: ^2.24.0
   firebase_auth: ^4.15.0
   flutter_staggered_grid_view: ^0.7.0
+  material_design_icons_flutter: ^7.0.7296
 
 dev_dependencies:
   flutter_test:
@@ -62,9 +63,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - asset/images
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -80,8 +80,8 @@ flutter:
   fonts:
     - family: Open Sans
       fonts:
-        - asset: fonts/OpenSans-Regular.ttf
-        - asset: fonts/OpenSans-Italic.ttf
+        - asset: asset/fonts/OpenSans-Regular.ttf
+        - asset: asset/fonts/OpenSans-Italic.ttf
           style: normal
   #   - family: Trajan Pro
   #     fonts:
